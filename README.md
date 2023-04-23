@@ -1,3 +1,3 @@
 # Node Test with TypeScript
 
-Example project which uses the [built-in Node test runner](https://nodejs.org/api/test.html) with [TypeScript](https://www.typescriptlang.org/) using [TSX](https://github.com/esbuild-kit/tsx) as a [Node loader](https://nodejs.org/api/esm.html#loaders).
+Example project which uses the [built-in Node test runner](https://nodejs.org/api/test.html) with [TypeScript](https://www.typescriptlang.org/) using [TSX](https://github.com/esbuild-kit/tsx) as a [Node loader](https://nodejs.org/api/esm.html#loaders). [A custom script](https://github.com/scottwillmoore/node-test-with-typescript/blob/main/script/test.ts) is still required to run TypeScript with the Node test runner at the moment. This is due to the [current Node test runner execution model](https://nodejs.org/docs/latest-v20.x/api/test.html#test-runner-execution-model). There is a [feature request](https://github.com/nodejs/node/issues/46292) to fix this issue.
