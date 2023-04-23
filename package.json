@@ -1,5 +1,6 @@
 {
 	"name": "node-test-with-typescript",
+	"type": "module",
 	"devDependencies": {
 		"@types/glob": "*",
 		"@types/node": "*",
@@ -8,9 +9,9 @@
 		"typescript": "*"
 	},
 	"scripts": {
-		"test": "node --loader tsx --no-warnings script/test.ts"
+		"test": "node --loader tsx --no-warnings ./scripts/test.ts"
 	},
 	"volta": {
-		"node": "19.0.1"
+		"node": "20.0.0"
 	}
 }

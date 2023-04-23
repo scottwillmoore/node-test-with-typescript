@@ -1,14 +1,13 @@
 {
 	"compilerOptions": {
-		"declaration": true,
-		"esModuleInterop": true,
-		"lib": ["ES2022"],
-		"module": "CommonJS",
-		"outDir": "build",
+		"allowImportingTsExtensions": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ESNext"],
+		"module": "NodeNext",
 		"resolveJsonModule": true,
+		"skipLibCheck": true,
 		"strict": true,
-		"target": "ES2022"
+		"target": "ESNext"
 	},
-	"exclude": ["./build/**/*.ts"],
 	"include": ["./**/*.ts"]
 }

@@ -1,7 +1,7 @@
 import { equal } from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { add } from "../src/add";
+import { add } from "../sources/add.ts";
 
 describe("add", () => {
 	it("1 + 2 = 3", () => {

@@ -2,7 +2,7 @@ import { execSync } from "node:child_process";
 
 import { sync as globSync } from "glob";
 
-const pattern = "test/**/*.test.ts";
+const pattern = "./tests/**/*.test.ts";
 
 const matches = globSync(pattern);
 
