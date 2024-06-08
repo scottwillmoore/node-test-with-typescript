@@ -9,7 +9,7 @@
 		"typescript": "*"
 	},
 	"scripts": {
-		"test": "glob -c \"node --loader tsx --no-warnings --test\" \"./tests/**/*.test.ts\""
+		"test": "glob -c \"node --import tsx --no-warnings --test\" \"./tests/**/*.test.ts\""
 	},
 	"volta": {
 		"node": "20.0.0"
